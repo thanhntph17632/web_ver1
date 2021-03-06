@@ -1,0 +1,187 @@
+*{ margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    /* background-color:#cdcd;  */
+    background-image: url("trang.jfif");
+}
+#body{
+    margin:0 auto ;
+    width: 960px; 
+}
+#header{
+    height: auto;
+    /* background-color:peachpuff; */
+}
+
+.search_header{
+    height: 28px;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.button_search{
+    float: right;
+    padding-top: 10px;
+}
+
+
+/* --------------------------------------- */
+
+/* navbar menu  */
+#navbar_menu{
+    background: black;
+}
+
+#color-nav{
+    color: rgb(255, 255, 255);
+}
+
+#color-nav :hover{
+    color: rgb(44, 73, 236);
+}
+
+/* body web */
+.body_web{
+    margin-top: 20px;
+}
+
+
+
+/* end menu */
+
+/* --------------------------------------- */
+#slide{
+    height:35px;
+}
+#slide h5{
+    line-height: 35px;
+    font-size: 30px;
+    color:red;
+}
+/* end slide */
+/* --------------------------------------- */
+
+/* -------------content-------------- */
+
+#content{
+    height: 600px;
+    height: 730px;
+    background-color:rgb(204, 230, 221);
+}
+/* left */
+#left{
+    width: 200px;
+    height: 100%;
+    float: left;
+    background-color:rgb(230, 230, 175);
+}
+
+.color_font_content{
+    color: black;
+    margin-bottom: -10px;
+}
+
+.item_left{
+    padding-left: 10px;
+    color: black;
+}
+.item_right{
+    padding-left: 20px;
+}
+
+.item_Main{
+    padding :10px;
+    padding-top: 20px;
+}
+.cl_danhMuc{
+    color: black;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.title{
+height: 50px;
+background-color: plum;
+}
+/* right */
+#right{
+    width: 200px;
+    height: 100%;
+    float: left;
+    margin-left: 33px;
+}
+
+#left ul li{
+    list-style: none;
+    display: block;
+    padding-left: 20px;
+    line-height: 50px;
+}
+#left ul li a{
+    text-decoration: none;
+}
+
+#left ul li :hover{
+    color: blue;
+}
+
+#right ul li{
+    list-style: none;
+    display: block;
+    padding-left: 20px;
+    line-height: 50px;
+}
+#right ul li a{
+    text-decoration: none;
+}
+
+#right ul li :hover{
+    color: blue;
+}
+#noidung{
+    width: 500px;
+    height: 100%;
+    float: left;
+    background-color:aquamarine ;
+    border-bottom: 1px gray;
+}
+/* #right{
+    width: 260px;
+    height: 100%;
+    float: left;
+    background-color: rgb(202, 199, 199);
+} */
+
+
+/* footer-------------------------------- */
+#footer{
+    margin-top: 20px;
+    height: 30px;
+    background-color: black;
+    text-align: center;
+    padding-top: 5px;
+    color:#fff;
+    padding-bottom: 5px; 
+    font-size: 12px;
+}
+
+/* zoom ảnh --------------------------------*/
+.thumbnail{
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    border: 1px solid #90881a;
+}
+
+.thumbnail img{
+    width: 100%;
+    height: 100%;
+    transition-duration: 0.3s;
+}
+
+.thumbnail img:hover {
+    transform: scale(1.2);
+}

@@ -1,0 +1,66 @@
+.main_hd{
+    padding-top:30px;
+}
+
+.left_hd{
+    float: left;
+    width: 670px;
+    height: 170px;
+}
+
+
+.col_1{
+    float: left;
+    width: 213px;
+    padding-left: 3px;
+}
+
+.col_2{
+    float: left;
+    width: 213px;
+    padding-left: 3px;
+}
+
+.col_3{
+    float: left;
+    width: 213px;
+    padding-left: 3px;
+}
+
+.col_4{
+    padding-top: 200px;
+}
+
+.col_5{
+    padding-top: 20px;
+}
+/* right */
+
+.rift_hd{
+    float: left;
+    height: 580px;
+    width: 290px;
+    background: lemonchiffon;
+}
+
+
+/* footer_hd--------- */
+#footer_hd{
+    margin-top: 810px;
+    height: 30px;
+    background-color: black;
+    text-align: center;
+    padding-top: 5px;
+    color:#fff;
+    padding-bottom: 5px; 
+    font-size: 12px;
+}
+
+/* lien hẹ */
+
+.rift_lh{
+    float: left;
+    height: 700px;
+    width: 290px;
+    background: lemonchiffon;
+}
